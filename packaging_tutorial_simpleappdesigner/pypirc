@@ -1,0 +1,9 @@
+[testpypi]
+  username = __token__
+  password = pypi-your_api_key
+
+
+  [pypi]
+  username = __token__
+  password = pypi-your_api_key
+  
