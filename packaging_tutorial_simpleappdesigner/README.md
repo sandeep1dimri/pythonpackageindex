@@ -33,11 +33,11 @@ pip install packaging-tutorial-simpleappdesigner
 
 5. install `python -m pip install --upgrade build`
 
-6. Add following in case missing:[tool.hatch.build.targets.wheel]
-
+6. Add following to toml file in case missing:
+[tool.hatch.build.targets.wheel]
 packages = [“src/packaging_tutorial_simpleappdesigner"]
 
-7. build the ditribution  `python -m build`
+7. build the distribution  `python -m build`
 
 8. Register at - https://test.pypi.org/, go to https://test.pypi.org/manage/account/, navigate to API tokens(2fa need to be enabled to get API token) ￼
 
